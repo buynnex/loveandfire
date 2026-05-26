@@ -20,6 +20,7 @@ define('PUBLIC_UPLOAD_PATH', 'uploads');
 
 define('FREE_DM_DAILY_LIMIT', 5);
 define('SESSION_NAME', 'LOVENFIRESESSID');
+/* Em producao, mantenha desativado para nao expor stack trace ao usuario final. */
 define('APP_DEBUG', false);
 
 /*
